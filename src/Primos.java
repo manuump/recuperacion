@@ -1,5 +1,9 @@
 //primos.java refactorizado
-public class primos {
+public class Primos {
+
+ public static void main(String[] args) {
+  generarPrimos(50);
+ }
   public static int[] generarPrimos(int max) {
 
    bienvenida();
