@@ -1,6 +1,9 @@
 //primos.java refactorizado
 public class primos {
   public static int[] generarPrimos(int max) {
+
+   bienvenida();
+
    int i, j;
    if (max >= 2) {
 
@@ -44,4 +47,8 @@ public class primos {
     return new int[0]; // Vector vacío
    }
   }
+
+ private static void bienvenida() {
+  System.out.println("Bienvenido al programa");
  }
+}
